@@ -1,0 +1,28 @@
+{
+  "name": "poi_dp_ge_node",
+  "version": "0.4.0",
+  "description": "A node.js module for interacting with FIWARE POI Data Provider GE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucy-sergiusz/poi_dp_ge_node.git"
+  },
+  "keywords": [
+    "FIWARE",
+    "POI",
+    "GE",
+    "node"
+  ],
+  "author": "lucy-sergiusz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucy-sergiusz/poi_dp_ge_node/issues"
+  },
+  "homepage": "https://github.com/lucy-sergiusz/poi_dp_ge_node#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
