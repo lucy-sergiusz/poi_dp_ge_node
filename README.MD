@@ -1,16 +1,17 @@
 A Node.js module for interacting with the FIWARE POI Data Provider Generic Enabler:
-http://catalogue.fiware.org/enablers/poi-data-provider
-https://github.com/Chiru/FIWARE-POIDataProvider
+
+- http://catalogue.fiware.org/enablers/poi-data-provider
+- https://github.com/Chiru/FIWARE-POIDataProvider
 
 This is an early version of the module, based on the programmer guide provided by the authors of the GE:
-http://fiware-poidataprovider.readthedocs.org/en/master/POI_Data_Provider__User_and_Programmers_Guide/
+- http://fiware-poidataprovider.readthedocs.org/en/master/POI_Data_Provider__User_and_Programmers_Guide/
 
 
 
-USAGE
+### USAGE
 
 
-
+```js
 const poiDpGe = require('poi-dp-ge-api');
 
 //config - required before performing other operations
@@ -62,3 +63,4 @@ poiDpGe.getPoiForUpdate(['58805c7f-c917-41ee-bb97-b1e9999cfdd6'], function(data)
 
 //Deleting a POI
 poiDpGe.deletePoi('38972181-e603-4bfc-b385-24c2da0aeccb');
+```
